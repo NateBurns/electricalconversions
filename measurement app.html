@@ -1,0 +1,58 @@
+<style>
+	p{
+		color: red;
+		font-family: monospace;
+	}
+	.header {
+		font-family: monospace;
+		color: blue;
+	}
+	.image-prefixes {
+		height: 264px;
+		width: 254px;
+	}
+	.formula-wheel{
+		height: 264px;
+		width: 264px;
+	}
+	.calculator{
+
+	}
+</style>
+
+<h2 class="header">Power-Voltage-Current-Resistance</h2>
+
+<div>
+<h3>Metric Prefixes and Formula Wheel</h3>
+
+<a href="#"><img class="image-prefixes" src="http://themetricmaven.com/wp-content/uploads/2013/02/Engineering-Prefix-Table1.jpg" alt="Engineering Notation"></a>
+<a href="#"><img class="formula-wheel" src="http://www.sengpielaudio.com/FormulaWheelElectronics.gif" alt="Formula Wheel"></a>
+</div>
+<div>
+<form class="calculator" action="#">
+	Power:<input type="number" placeholder="Watts"></input>
+	Voltage:<input type="number" placeholder="Volts"></input>
+	Current:<input type="number" placeholder="Amps"></input>
+	Resistance:<input type="number" placeholder="Ohms"></input>
+	<button type="submit">Calculate</button>
+</form>
+</div>
+<div>
+<form class="calculator2" action="#">
+	<input type="number" placeholder="First Variable" required></input>
+		<label type="radio" name="first-variable">
+			<input type="radio" name="first-variable">Watts</input>
+			<input type="radio" name="first-variable">Volts</input>
+			<input type="radio" name="first-variable">Amps</input>
+			<input type="radio" name="first-variable">Ohms</input>
+		</label>
+	<input type="number" placeholder="Second Variable" required></input>
+		<label type="radio" name="second-variable">
+			<input type="radio" name="second-variable">Wats</input>
+			<input type="radio" name="second-variable">Volts</input>
+			<input type="radio" name="second-variable">Amps</input>
+			<input type="radio" name="second-variable">Ohms</input>
+		</label>
+	<button type="submit">Submit</button>
+</form>
+</div>
